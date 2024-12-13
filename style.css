@@ -8,12 +8,18 @@
 
 body {
     background-color: #00FA9A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .logo {
-    width: 300px;
-    display: block;
+    width: 450px;
+    display: flex;
     margin: 20px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -85,7 +91,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
 }
 
 .currency {
